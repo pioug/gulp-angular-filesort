@@ -1,5 +1,5 @@
 {
-  "name": "gulp-angular-filesort",
+  "name": "@pioug/gulp-angular-filesort",
   "version": "1.2.0",
   "description": "Automatically sort AngularJS app files depending on module definitions and usage",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/klei/gulp-angular-filesort"
+    "url": "git://github.com/pioug/gulp-angular-filesort"
   },
   "keywords": [
     "gulpplugin",
@@ -17,18 +17,21 @@
     "modules"
   ],
   "author": "Joakim Bengtson <joakim@klei.se>",
+  "contributors": [
+    "Gilles Piou <gilles.piou@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/klei/gulp-angular-filesort/issues"
+    "url": "https://github.com/pioug/gulp-angular-filesort/issues"
   },
-  "homepage": "https://github.com/klei/gulp-angular-filesort",
+  "homepage": "https://github.com/pioug/gulp-angular-filesort",
   "devDependencies": {
     "chai": "3.5.0",
     "mocha": "2.4.5"
   },
   "dependencies": {
     "gulp-util": "^3.0.7",
-    "ng-dependencies": "0.5.0",
+    "ng-dependencies": "~0.5.0",
     "through2": "^2.0.0",
     "toposort": "~0.2.12"
   }
