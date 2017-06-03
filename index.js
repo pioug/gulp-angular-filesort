@@ -1,7 +1,7 @@
 'use strict';
 
 var through = require('through2');
-var ngDep = require('ng-dependencies');
+var ngDep = require('@pioug/ng-dependencies');
 var toposort = require('toposort');
 var gutil = require('gulp-util');
 var PluginError = gutil.PluginError;
@@ -32,7 +32,7 @@ module.exports = function angularFilesort() {
 
     var deps;
     try {
-      deps = ngDep(file.contents);
+      deps = ngDep(file.contents.toString());
     } catch (err) {
       this.emit('error', new PluginError(PLUGIN_NAME, 'Error in parsing: "' + file.relative + '", ' + err.message));
       return;

@@ -30,8 +30,8 @@
     "mocha": "3.4.2"
   },
   "dependencies": {
+    "@pioug/ng-dependencies": "1.0.1",
     "gulp-util": "3.0.8",
-    "ng-dependencies": "0.8.1",
     "through2": "2.0.3",
     "toposort": "1.0.3"
   }
