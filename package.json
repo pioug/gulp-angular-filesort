@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/pioug/gulp-angular-filesort",
   "devDependencies": {
-    "chai": "3.5.0",
-    "mocha": "3.2.0"
+    "chai": "4.0.1",
+    "mocha": "3.4.2"
   },
   "dependencies": {
     "gulp-util": "3.0.8",
