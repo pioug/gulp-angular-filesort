@@ -37,6 +37,11 @@ gulp.src('./src/app/index.html')
 
 **NOTE** Do not use the `read` option for `gulp.src`! This plugin analyzes the contents of each file to determine sort order.
 
+
+## Changelog
+
+1.2.4 - use ng-dependencies fork to handle JSX syntax
+
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
