@@ -40,6 +40,8 @@ gulp.src('./src/app/index.html')
 
 ## Changelog
 
+1.3.0 - update ng-dependencies to handle rest and spread properties
+
 1.2.4 - use ng-dependencies fork to handle JSX syntax
 
 ## License
