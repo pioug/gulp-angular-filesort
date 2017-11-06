@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/pioug/gulp-angular-filesort",
   "devDependencies": {
-    "chai": "4.0.1",
-    "mocha": "3.4.2"
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
   },
   "dependencies": {
-    "@pioug/ng-dependencies": "1.0.1",
-    "gulp-util": "3.0.8",
-    "through2": "2.0.3",
-    "toposort": "1.0.3"
+    "@pioug/ng-dependencies": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3",
+    "toposort": "^1.0.6"
   }
 }
